@@ -1,0 +1,52 @@
+.pt11 {
+    background-color: #151515;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    right:5px;
+
+    position: absolute;
+
+}
+.pt12 {
+    background-color: #151515;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.pt13 {
+    background-color: #151515;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.pt14 {
+    background-color: #151515;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pt2 {
+    background-color: #151515;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.o {
+    white-space: nowrap
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}

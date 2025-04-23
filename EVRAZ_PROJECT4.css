@@ -50,3 +50,31 @@
     width: 100px;
     display: inline-block;
 }
+
+.cvadrat1 {
+
+    position: absolute;
+    right: 190px;
+    bottom: 180px;
+    border-radius: 5px;
+
+}
+.cvadrat2 {
+    position: absolute;
+    right: 30px;
+    bottom: 180px;
+    border-radius: 5px;
+}
+.cvadrat3 {
+    position: absolute;
+    right:190px;
+    bottom: 20px;
+    border-radius: 5px;
+}
+.cvadrat4 {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 5px;
+    font:
+}

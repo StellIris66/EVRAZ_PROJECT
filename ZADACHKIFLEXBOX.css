@@ -1,0 +1,7 @@
+.parent{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+

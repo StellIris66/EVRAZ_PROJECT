@@ -1,7 +1,25 @@
-.parent{
-    display:inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.Pparent {
+    display: flex;
     height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    justify-content: center;
+
+
+}
+
+.child {
+    background-color: white;
+    width: 40%;
 }
 

@@ -7,6 +7,7 @@
 }
 
 .pt2 {
+    margin-left: 5px;
     background-color: rgb(46, 46, 46);
     opacity: 85%;
     width: 100px;
@@ -17,10 +18,11 @@
 }
 
 .o {
-    white-space: nowrap;
+    margin-left: 5px;
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .s4 {
@@ -33,10 +35,39 @@
 }
 
 .big {
-    display:inline-block;
+    margin-left: 5px;
     background-color: rgb(46, 46, 46);
     opacity: 85%;
     width: 200px;
     height: 100px;
     border-radius:5px;
+}
+
+.pt11{
+    margin-left:5px;
+    margin-bottom: 5px;
+    width:45%;
+    height:45%;
+    border-radius:5px;
+    background: rgb(46, 46, 46);
+    opacity: 85%;
+}
+
+.str1{
+    justify-content: center;
+    display:flex;
+    flex-wrap: nowrap;
+}
+.str2{
+    margin-top: 5px;
+    justify-content: center;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.str3{
+    margin-top: 5px;
+    justify-content: center;
+    display:flex;
+    flex-wrap: nowrap;
 }

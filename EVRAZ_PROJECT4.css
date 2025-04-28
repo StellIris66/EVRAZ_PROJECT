@@ -52,7 +52,8 @@
 }
 
 .cvadrat1 {
-
+    display: flex;
+    flex-direction: column;
     position: absolute;
     right: 230px;
     bottom: 240px;
@@ -60,24 +61,32 @@
 
 }
 .cvadrat2 {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     right: 15px;
     bottom: 240px;
     border-radius: 5px;
 }
 .cvadrat3 {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     right:230px;
     bottom: 20px;
     border-radius: 5px;
 }
 .cvadrat4 {
+    flex-direction: column;
+    display:flex;
     position: absolute;
     right: 15px;
     bottom: 20px;
     border-radius: 5px;
 }
 .grafik1 {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     border-radius: 5px ;
     bottom: 20px;

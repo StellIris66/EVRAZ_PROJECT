@@ -45,7 +45,7 @@
 }
 
 .o {
-    white-space: nowrap
+    white-space: nowrap;
     height: 100px;
     width: 100px;
     display: inline-block;
@@ -54,27 +54,31 @@
 .cvadrat1 {
 
     position: absolute;
-    right: 190px;
-    bottom: 180px;
+    right: 230px;
+    bottom: 240px;
     border-radius: 5px;
 
 }
 .cvadrat2 {
     position: absolute;
-    right: 30px;
-    bottom: 180px;
+    right: 15px;
+    bottom: 240px;
     border-radius: 5px;
 }
 .cvadrat3 {
     position: absolute;
-    right:190px;
+    right:230px;
     bottom: 20px;
     border-radius: 5px;
 }
 .cvadrat4 {
     position: absolute;
-    right: 30px;
+    right: 15px;
     bottom: 20px;
     border-radius: 5px;
-    font:
+}
+.grafik1 {
+    position: absolute;
+    border-radius: 5px ;
+    bottom: 20px;
 }

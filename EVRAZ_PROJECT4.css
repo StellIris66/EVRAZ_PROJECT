@@ -18,6 +18,22 @@
 }
 
 .o {
+    white-space: nowrap;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.cvadrat1 {
+    display: inline-block;
+    position: absolute;
+    right: 1070px;
+    bottom: 240px;
+    border-radius: 5px;
+
+}
+
+.o {
     gap:15px;
     margin-left:15px;
     height: 300px;
@@ -29,57 +45,27 @@
     align-content: space-between;
 
 
+.cvadrat2 {
+    display: inline-block;
+    position: absolute;
+    right: 860px;
+    bottom: 240px;
+    border-radius: 5px;
 }
-
-/*.cvadrat1 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    position: absolute;*/
-/*    right: 230px;*/
-/*    bottom: 240px;*/
-/*    border-radius: 5px;*/
-
-/*}*/
-/*.cvadrat2 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    position: absolute;*/
-/*    right: 15px;*/
-/*    bottom: 240px;*/
-/*    border-radius: 5px;*/
-/*}*/
-/*.cvadrat3 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    position: absolute;*/
-/*    right:230px;*/
-/*    bottom: 20px;*/
-/*    border-radius: 5px;*/
-/*}*/
-/*.cvadrat4 {*/
-/*    flex-direction: column;*/
-/*    display:flex;*/
-/*    position: absolute;*/
-/*    right: 15px;*/
-/*    bottom: 20px;*/
-/*    border-radius: 5px;*/
-/*}*/
-/*.grafik1 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    position: absolute;*/
-/*    border-radius: 5px ;*/
-/*    bottom: 20px;*/
-/*}*/
-
-.str1{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 300px;
-    width:960px;
+.cvadrat3 {
+    display: inline-block;
+    position: absolute;
+    right:1070px;
+    bottom: 20px;
+    border-radius: 5px;
 }
+.cvadrat4 {
+    display:inline-block;
+    position: absolute;
+    right: 860px;
+    bottom: 20px;
+    border-radius: 5px;
+    }
 .str2{
     align-items: flex-start;
     display: flex;
@@ -120,4 +106,29 @@
     font-weight: 900;
     font-size:10px;
     color:white;
+}
+.grafik2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius:5px ;
+    bottom:-395px
+}
+
+.grafik3 {
+    display:flex;
+    flex-direction: column;
+    position:absolute ;
+    border-radius:5px;
+    bottom:-395px;
+    left:425px;
+}
+
+.grafik4 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 5px;
+    bottom:-395px;
+    left:845px;
 }

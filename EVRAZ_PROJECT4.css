@@ -52,35 +52,31 @@
 }
 
 .cvadrat1 {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     position: absolute;
-    right: 230px;
+    right: 1070px;
     bottom: 240px;
     border-radius: 5px;
 
 }
 .cvadrat2 {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     position: absolute;
-    right: 15px;
+    right: 860px;
     bottom: 240px;
     border-radius: 5px;
 }
 .cvadrat3 {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     position: absolute;
-    right:230px;
+    right:1070px;
     bottom: 20px;
     border-radius: 5px;
 }
 .cvadrat4 {
-    flex-direction: column;
-    display:flex;
+    display:inline-block;
     position: absolute;
-    right: 15px;
+    right: 860px;
     bottom: 20px;
     border-radius: 5px;
 }
@@ -90,4 +86,29 @@
     position: absolute;
     border-radius: 5px ;
     bottom: 20px;
+}
+.grafik2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius:5px ;
+    bottom:-395px
+}
+
+.grafik3 {
+    display:flex;
+    flex-direction: column;
+    position:absolute ;
+    border-radius:5px;
+    bottom:-395px;
+    left:425px;
+}
+
+.grafik4 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 5px;
+    bottom:-395px;
+    left:845px;
 }

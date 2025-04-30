@@ -34,16 +34,16 @@
 }
 
 .o {
-    gap:15px;
-    margin-left:15px;
+    gap: 15px;
+    margin-left: 15px;
     height: 300px;
     width: 300px;
-    display:flex;
+    display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
     justify-content: space-around;
     align-content: space-between;
-
+}
 
 .cvadrat2 {
     display: inline-block;
@@ -60,12 +60,12 @@
     border-radius: 5px;
 }
 .cvadrat4 {
-    display:inline-block;
+    display: inline-block;
     position: absolute;
     right: 860px;
     bottom: 20px;
     border-radius: 5px;
-    }
+}
 .str2{
     align-items: flex-start;
     display: flex;

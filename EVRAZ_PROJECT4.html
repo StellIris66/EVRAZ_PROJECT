@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,13 +8,13 @@
             href="EVRAZ_PROJECT4.css"
     >
         <style>
-            .grafik1 {height: 425px; width:815px;background-color:black;color: white }
+            .grafik1 {height: 305px; width:615px;background-color:black;color: white;}
 
-            .grafik2 {height:400px; width:400px;background-color: black;color: white}
+            .grafik2 {height:300px; width:300px;background-color: black;color: white}
 
-            .grafik3 { height:400px; width:400px;background-color: black;color: white;}
+            .grafik3 { height:300px; width:300px;background-color: black;color: white;}
 
-            .grafik4 {height:400px;width:400px;background-color: black;color:white}
+            .grafik4 {height:300px;width:300px;background-color: black;color:white}
 
             .cvadrat4 {
                 height: 150px;
@@ -22,6 +22,25 @@
                 background-color: #000000;
                 color: white;
             }
+            .cvadrat3 {
+                height: 150px;
+                width: 150px;
+                background-color: black;
+                color: #fffdfd;
+            }
+            .cvadrat2 {
+                height: 150px;
+                width: 150px;
+                background-color: black;
+                color: #fffdfd;
+            }
+            .cvadrat1 {
+                height: 150px;
+                width: 150px;
+                background-color: black;
+                color: #fffdfd;
+            }
+
         </style>
 </head>
 <body>
@@ -63,15 +82,32 @@
 
 <div class="grafik2"><h3>ИНДЕКС ПОТРЕБИТЕЛЬСКОЙ ЛОЯЛЬНОСТИ</h3>
 </div>
+<div id="chart" class="grafik1"><h3>ПРОГНОЗ ПРОДАЖ</h3>
+</div>
 <div class="cvadrat4"><h3>УСПЕШНЫЕ
     СДЕЛКИ</h3>
-    <div style="color: #008ed8;"> 3 082</div>
+    <div style="color: #3304ef;"><h1>3 082</h1> </div>
     <div style="color: #fffdfd;"> 0₽</div>
     <div style="color: white">------</div>
     <div style="color: green">+10</div>
-    <div style="color: #7c7b7b7c ">за неделю</div>
+    <div style="color: rgb(255,255,255) ">за неделю</div>
 </div>
+<div class="cvadrat3"><h3>
+    ПРИМЕЧАНИЙ</h3>
+<div style="color: green"><h1>11</h1></div>
+    <div style="color: #fffdfd">за неделю</div>
+    <div class="cvadrat2"><h3>
+ ВХОДЯЩИЕ ЗВОНКИ</h3>
+        <div style="color:green"><h1>5</h1></div>
+        <div>за неделю</div>
+    </div>
+    <div class="cvadrat1"><h3>
+        ИСХОДЯЩИЕ ЗВОНКИ</h3>
+        <div style="color: green"><h1>3</h1></div>
+        <div>за неделю</div>
+    </div>
 
+</div>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script src="EVRAZ_PROJECT4.js"></script>
 </body>

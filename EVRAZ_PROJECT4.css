@@ -102,13 +102,22 @@
 }
 
 
+.grafik1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius:5px ;
+    bottom:-18px;
+    left:27px;
+}
 
 .grafik2 {
     display: flex;
     flex-direction: column;
     position: absolute;
     border-radius:5px ;
-    bottom:-395px
+    bottom:-330px;
+    left: 25px;
 }
 
 .grafik3 {
@@ -116,8 +125,8 @@
     flex-direction: column;
     position:absolute ;
     border-radius:5px;
-    bottom:-395px;
-    left:425px;
+    bottom:-330px;
+    left:340px;
 }
 
 .grafik4 {
@@ -125,41 +134,45 @@
     flex-direction: column;
     position: absolute;
     border-radius: 5px;
-    bottom:-395px;
-    left:845px;
+    bottom:-330px;
+    left:665px;
 }
 
-.cvadrat1 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 230px;
-    bottom: 240px;
-    border-radius: 5px;
 
-}
-.cvadrat2 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 15px;
-    bottom: 240px;
-    border-radius: 5px;
-}
 .cvadrat3 {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right:230px;
-    bottom: 20px;
+    right:780px;
+    bottom: -18px;
     border-radius: 5px;
+   font-size: 11px;
 }
 .cvadrat4 {
     flex-direction: column;
     display:flex;
     position: absolute;
-    right: 15px;
-    bottom: 20px;
+    right: 620px;
+    bottom: -18px;
     border-radius: 5px;
+    font-size: 11px;
+}
+.cvadrat2 {
+    flex-direction: column;
+    display:flex;
+    position: absolute;
+    right: 1px;
+    bottom: 155px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+.cvadrat1 {
+    flex-direction: column;
+    display:flex;
+    position: absolute;
+    right: -160px;
+    bottom: 155px;
+    border-radius: 5px;
+    font-size: 11px;
 }
 

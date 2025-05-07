@@ -1,7 +1,7 @@
 let options = {
     series: [{
         name: "STOCK ABC",
-        data: ['1', '2', '3', '4']
+        data: series.monthDataSeries1.prices
     }],
     chart: {
         type: 'area',
@@ -25,7 +25,7 @@ let options = {
         text: 'Price Movements',
         align: 'left'
     },
-    labels: ['1', '2', '3', '4'],
+    labels: series.monthDataSeries1.dates,
     xaxis: {
         type: 'datetime',
     },

@@ -103,6 +103,7 @@
 
 
 .grafik1 {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -139,40 +140,13 @@
 }
 
 
-.cvadrat3 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right:780px;
-    bottom: -18px;
-    border-radius: 5px;
-   font-size: 11px;
-}
-.cvadrat4 {
-    flex-direction: column;
-    display:flex;
-    position: absolute;
-    right: 620px;
-    bottom: -18px;
-    border-radius: 5px;
-    font-size: 11px;
-}
-.cvadrat2 {
-    flex-direction: column;
-    display:flex;
-    position: absolute;
-    right: 1px;
-    bottom: 155px;
-    border-radius: 5px;
-    font-size: 11px;
-}
-.cvadrat1 {
-    flex-direction: column;
-    display:flex;
-    position: absolute;
-    right: -160px;
-    bottom: 155px;
-    border-radius: 5px;
-    font-size: 11px;
-}
+    .c1 {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-size: 11px;
+
+    }
+
 

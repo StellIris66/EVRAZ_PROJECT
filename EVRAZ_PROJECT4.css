@@ -136,12 +136,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        font-size: 11px;
+        font-size: 10px;
     }
 .cvadrat1{
-        margin-left:10px ;
+        margin-left:18px ;
         border-radius:5px;
         margin-top: -300px;
+
     }
 .cvadrat2{
     margin-left: -320px;
@@ -149,20 +150,22 @@
     margin-top: -300px;
 }
 .cvadrat3{
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 5px;
-    margin-top: -140px;
+    margin-top: -135px;
+    margin-left: 12px;
 }
 .cvadrat4{
     margin-right: 10px;
     border-radius: 5px;
-    margin-top: -140px;
+    margin-top: -135px;
 }
 .grafik1{
     border-radius:5px ;
     margin-right: 15px;
     margin-top: -300px;
     margin-left: 15px;
+
 }
 .c2 {
     align-items: flex-start;

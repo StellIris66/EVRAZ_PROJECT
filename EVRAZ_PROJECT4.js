@@ -1,11 +1,11 @@
 let options = {
     series: [{
         name: "STOCK ABC",
-        data: series.monthDataSeries1.prices
+        data: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
     }],
     chart: {
         type: 'area',
-        height: 350,
+        height: 290,
         zoom: {
             enabled: false
         }
@@ -25,9 +25,20 @@ let options = {
         text: 'Price Movements',
         align: 'left'
     },
-    labels: series.monthDataSeries1.dates,
+    labels: [
+        new Date('2025-05-10'),
+        new Date('2025-05-11'),
+        new Date('2025-05-12'),
+        new Date('2025-05-13'),
+        new Date('2025-05-14'),
+        new Date('2025-05-15'),
+        new Date('2025-05-16'),
+        new Date('2025-05-17'),
+        new Date('2025-05-18'),
+        new Date('2025-05-19'),
+    ],
     xaxis: {
-        type: 'datetime',
+        type: 'date',
     },
     yaxis: {
         opposite: true
@@ -39,4 +50,10 @@ let options = {
 
 let chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
+
+
+
+
+
+
 

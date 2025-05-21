@@ -28,7 +28,7 @@ var options = {
                 useSeriesColors: true,
                 offsetX: -8,
                 fontSize: '8.5px',
-                formatter: function(seriesName, opts) {
+                formatter: function (seriesName, opts) {
                     return seriesName
                 },
             },
@@ -50,13 +50,12 @@ var chart = new ApexCharts(document.querySelector("#chart1"), options);
 chart.render();
 
 
-
 var options = {
     series: [25, 25, 25, 25], // Делим на 4 равные части (25%, 50%, 75%, 100%)
     chart: {
-        height: 250,
+        height: 200,
         type: 'donut',
-        toolbar: { show: false }
+        toolbar: {show: false}
     },
     colors: ['#00CED1', '#FFFF99', '#FF8C00', '#8B0000'], // Цвета для каждой зоны
     plotOptions: {

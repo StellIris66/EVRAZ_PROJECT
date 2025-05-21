@@ -52,7 +52,24 @@ let chart = new ApexCharts(document.querySelector("#chart"), options);
 chart.render();
 
 
+let option = {
+    series: [70],
+    chart: {
+        height: 240,
+        type: 'radialBar',
+    },
+    plotOptions: {
+        radialBar: {
+            hollow: {
+                size: '70%',
+            }
+        },
+    },
+    labels: ['NPS'],
+};
 
+let chart2 = new ApexCharts(document.querySelector("#chart2"), option);
+chart2.render();
 
 
 

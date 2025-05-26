@@ -103,94 +103,76 @@
 
 
 
-.grafik2 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    border-radius:5px ;
-    bottom:-330px;
-    left: 25px;
-}
-
-.grafik3 {
-    display:flex;
-    flex-direction: column;
-    position:absolute ;
-    border-radius:5px;
-    bottom:-330px;
-    left:340px;
-}
-
-.grafik4 {
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    border-radius: 5px;
-    bottom:-330px;
-    left:665px;
-}
-
-
     .c1 {
         align-items: flex-start;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         font-size: 10px;
+
+
+        .cvadrat1 {
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+
+        .cvadrat2 {
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+
+        .cvadrat3 {
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            border-radius: 5px;
+
+        }
+
+        .cvadrat4 {
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+
+        .grafik1 {
+            border-radius: 5px;
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
     }
-.cvadrat1{
-        margin-left:18px ;
-        border-radius:5px;
-        margin-top: -300px;
-
-    }
-.cvadrat2{
-    margin-left: -320px;
-    border-radius: 5px;
-    margin-top: -300px;
-}
-.cvadrat3{
-    margin-right: 20px;
-    border-radius: 5px;
-    margin-top: -135px;
-    margin-left: 12px;
-}
-.cvadrat4{
-    margin-right: 10px;
-    border-radius: 5px;
-    margin-top: -135px;
-
-}
-.grafik1{
-    border-radius:5px ;
-    margin-right: 15px;
-    margin-top: -300px;
-    margin-left: 15px;
-
-}
 .c2 {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size: 15px;
+    font-size: 10px;
+
+    .grafik2 {
+        border-radius:5px ;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .grafik3 {
+        border-radius:5px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .grafik4 {
+        border-radius:5px ;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
 }
-.grafik4{
-    border-radius: 5px;
-    margin-right: 10px;
-    top: 960px;
-    left: 654px;
-}
-.grafik3{
-    border-radius: 5px;
-    margin-right: 10px;
-    top: 960px;
-}
-.grafik2{
-    border-radius: 5px;
-    margin-right: 10px;
-    top: 960px;
-}
+
 .c3{
     align-items: flex-start;
     display: flex;
@@ -201,11 +183,11 @@
 .grafik5{
     border-radius: 5px;
     margin-left: 15px;
-    margin-top: 330px;
+    margin-top: 15px;
 }
 .grafik6{
     border-radius: 5px;
     margin-left: 15px;
-    margin-top:330px;
+    margin-top:15px;
 }
 

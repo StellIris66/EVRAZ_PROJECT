@@ -7,7 +7,7 @@
 }
 
 .pt2 {
-    position:relative;
+    position: relative;
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
@@ -297,7 +297,7 @@
 }
 
 .chart2__stepper div {
-    padding: 4px 8px ;
+    padding: 4px 8px;
     border: 2px solid white;
 }
 
@@ -313,6 +313,7 @@
     bottom: 1px;
     transform-origin: 50% 50%;
     transform: rotate(-180deg);
+    transition: all 0.8s;
     /*/ / animation: rotate 7 s ease-in-out infinite alternate;*/
 }
 
@@ -321,43 +322,82 @@
 }
 
 
-.procent_0{
+.procent_0 {
     font-size: 12px;
     font-weight: 600;
-    color:white;
+    color: white;
     position: absolute;
-    left:45px;
-    top:190px;
+    left: 45px;
+    top: 190px;
 }
-.procent_25{
+
+.procent_25 {
     font-size: 12px;
     font-weight: 600;
-    color:white;
+    color: white;
     position: absolute;
-    left:55px;
-    top:125px;
+    left: 55px;
+    top: 125px;
 }
-.procent_50{
+
+.procent_50 {
     font-size: 12px;
     font-weight: 600;
-    color:white;
+    color: white;
     position: absolute;
-    left:145px;
-    top:90px;
+    left: 145px;
+    top: 90px;
 }
-.procent_75{
+
+.procent_75 {
     font-size: 12px;
     font-weight: 600;
-    color:white;
+    color: white;
     position: absolute;
-    left:220px;
-    top:125px;
+    left: 220px;
+    top: 125px;
 }
-.procent_100{
+
+.procent_100 {
     font-size: 12px;
     font-weight: 600;
-    color:white;
+    color: white;
     position: absolute;
-    left:250px;
-    top:190px;
+    left: 250px;
+    top: 190px;
+}
+
+.pdf1 {
+    height: 20px;
+    width: 20px;
+    background-image: url('./iconPDF.png');
+    margin-top: 15px;
+    background-size: cover;
+}
+
+.pdf {
+    width:20px;
+    margin-left: 10px;
+}
+
+.text {
+    font-size: 12px;
+    color: white;
+}
+
+.polosia1{
+    border-radius: 10px;
+    height: 100%;
+    background: dodgerblue;
+}
+
+.textXpoloskiXpdf{
+    margin-top:35px;
+    width:150px;
+
+
+}
+
+.pdf2{
+    margin-top:15px;
 }

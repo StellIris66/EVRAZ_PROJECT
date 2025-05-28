@@ -80,5 +80,11 @@ var options = {
     }
 }
 
+function s1(){
+    let strelka = document.getElementById('strelka')
+    strelka.style.transform = 'rotate(-45deg)'
+}
+
 var chart = new ApexCharts(document.querySelector("#chart2"), options);
 chart.render();
+s1();

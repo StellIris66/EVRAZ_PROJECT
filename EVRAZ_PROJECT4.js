@@ -96,9 +96,13 @@ let options3 = {
     }],
     chart: {
         type: 'area',
-        height: 290,
+        height: 300,
+        width:615,
         zoom: {
             enabled: false
+        },
+        toolbar: {
+            show: false,
         }
     },
     dataLabels: {
@@ -108,31 +112,36 @@ let options3 = {
         curve: 'straight'
     },
 
-    title: {
-        text: 'Fundamental Analysis of Stocks',
-        align: 'left'
-    },
-    subtitle: {
-        text: 'Price Movements',
-        align: 'left'
-    },
     labels: [
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
-        new Date(''),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
+        new Date().toLocaleDateString(),
     ],
     xaxis: {
         type: 'date',
+        labels:{
+            style:{
+                colors:['white', 'white', 'white', 'white', 'white', 'white', 'white', 'white', 'white', 'white']
+            }
+        }
     },
     yaxis: {
-        opposite: true
+        opposite: true,
+        labels:{
+            style:{
+                colors:['white', 'white', 'white', 'white', 'white', 'white', 'white', 'white', 'white', 'white']
+            }
+        }
+    },
+    tooltip: {
+        enabled: false,
     },
     legend: {
         horizontalAlign: 'left'
@@ -152,6 +161,12 @@ let options4 = {
         radialBar: {
             hollow: {
                 size: '70%',
+            },
+            dataLabels: {
+                showOn: "always",
+                value: {
+                    color: "#fff",
+                }
             }
         },
     },

@@ -34,7 +34,7 @@ let options1 = {
             },
         }
     },
-    colors: ['#36bae5', '#36bae5'],
+    colors: ['#3989D2FF', '#3989D2FF'],
     labels: ['ИНТЕГРАЦИЯ С САЙТОМ ВДЕЛО', 'ВИРТУАЛЬНАЯ АТС МЕГАФОН'],
     responsive: [{
         breakpoint: 480,
@@ -46,7 +46,7 @@ let options1 = {
     }]
 };
 
-var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
+let chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
 chart1.render();
 
 
@@ -57,7 +57,7 @@ let options2 = {
         type: 'donut',
         toolbar: {show: false}
     },
-    colors: ['#00CED1', '#FFFF99', '#FF8C00', '#8B0000'], // Цвета для каждой зоны
+    colors: ['#ff8800', '#ff8800', '#ff8800', '#ffffff'], // Цвета для каждой зоны
     plotOptions: {
         pie: {
             donut: {
@@ -77,7 +77,7 @@ let options2 = {
     },
     tooltip: {
         enabled: false // Отключаем всплывающие подсказки
-    }
+    },
 }
 
 function s1(){

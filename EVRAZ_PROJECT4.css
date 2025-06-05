@@ -1,5 +1,5 @@
 .pt11 {
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(12,37,61,.95);
     width: 142px;
     height: 142px;
     border-radius: 15px;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(12,37,61,.95);
     width: 300px;
     height: 300px;
     border-radius: 15px;
@@ -92,11 +92,11 @@
     font-weight: 1000;
     font-size: 40px;
 
-    color: blueviolet;
+    color: #8174fd;
 }
 
 .line {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 10px;
     width: 80px;
     border: 0;
@@ -108,19 +108,17 @@
     margin-left: 15px;
     font-weight: 1000;
     font-size: 20px;
-    color: forestgreen;
+    color: #00d569;
     margin-top: 20px;
 
 
 }
 
 .tb1-3 {
-    position: absolute;
-    left: 35px;
-    top: 135px;
     font-weight: 1000;
-    color: white;
+    color: #97a4af;
     font-size: 10px;
+    margin-left: 15px;
 
 }
 
@@ -129,39 +127,36 @@
     font-weight: 1000;
     font-size: 40px;
 
-    color: blueviolet;
+    color: #8174fd;
 }
 
 .tb2-2 {
     margin-left: 15px;
     font-weight: 1000;
     font-size: 20px;
-    color: forestgreen;
+    color: #00d569;
     margin-top: 20px;
 
 
 }
 
 .tb2-3 {
-    position: absolute;
-    left: 35px;
-    top: 290px;
     font-weight: 1000;
-    color: white;
+    color: #97a4af;
     font-size: 10px;
-
+    margin-left: 15px;
 }
 
 .tb3-1 {
     margin-left: 15px;
     font-weight: 1000;
     font-size: 40px;
-    color: forestgreen;
+    color: #00d569;
 }
 
 .tb3-2 {
     font-weight: 1000;
-    color: white;
+    color: #97a4af;
     font-size: 10px;
     margin-left: 15px;
 }
@@ -171,36 +166,31 @@
     font-weight: 1000;
     font-size: 40px;
 
-    color: blueviolet;
+    color: #8174fd;
 }
 
 .tb4-2 {
     margin-left: 15px;
     font-weight: 1000;
     font-size: 20px;
-    color: forestgreen;
-    margin-top: 20px;
+    color: #00d569;
+
 
 
 }
 
 .tb4-3 {
-    position: absolute;
-    left: 195px;
-    top: 290px;
     font-weight: 1000;
-    color: white;
+    color: #97a4af;
     font-size: 10px;
-
+    margin-left: 15px;
 }
 
 .tb4-4 {
-    color: white;
-    font-size: 11px;
-    position: absolute;
-    left: 195px;
-    top: 230px;
     font-weight: 1000;
+    color: white;
+    font-size: 10px;
+    margin-left: 15px;
 }
 
 
@@ -219,7 +209,7 @@
     font-weight: 1000;
     font-size: 40px;
 
-    color: blueviolet;
+    color: #8174fd;
 }
 
 .tb6-2 {
@@ -232,12 +222,12 @@
 .tb6-3 {
     font-weight: 1000;
     font-size: 20px;
-    color: forestgreen;
+    color: #00d569;
 }
 
 .tb6-4 {
     flex-direction: row;
-    color: white;
+    color: #97a4af;
     font-size: 11px;
     font-weight: 1000;
 
@@ -252,7 +242,7 @@
 .polosa1 {
     border-radius: 10px;
     height: 100%;
-    background: yellow;
+    background: #fdd56d;
 }
 
 .bt5p {
@@ -281,7 +271,7 @@
 .polosa2 {
     border-radius: 10px;
     height: 100%;
-    background: yellow;
+    background: #fdd56d;
 }
 
 #chart2 {
@@ -376,7 +366,7 @@
 }
 
 .pdf {
-    width:20px;
+    width: 20px;
     margin-left: 10px;
 }
 
@@ -385,21 +375,21 @@
     color: white;
 }
 
-.polosia1{
+.polosia1 {
     border-radius: 10px;
     height: 100%;
-    background: dodgerblue;
+    background: #3989D2FF;
 }
 
-.textXpoloskiXpdf{
-    margin-top:35px;
-    width:150px;
+.textXpoloskiXpdf {
+    margin-top: 35px;
+    width: 150px;
 
 
 }
 
-.pdf2{
-    margin-top:15px;
+.pdf2 {
+    margin-top: 15px;
 }
 
 .c1 {
@@ -409,6 +399,7 @@
     flex-wrap: nowrap;
     font-size: 10px;
 }
+
 .cvadrat1 {
     border-radius: 5px;
     margin-right: 5px;
@@ -417,6 +408,7 @@
     position: relative;
     right: 295px;
 }
+
 .cvadrat2 {
     border-radius: 5px;
     margin-right: 5px;
@@ -425,6 +417,7 @@
     position: relative;
     right: 305px;
 }
+
 .cvadrat3 {
     border-radius: 5px;
     margin-right: 5px;
@@ -434,6 +427,7 @@
     bottom: -160px;
     left: 5px;
 }
+
 .cvadrat4 {
     border-radius: 5px;
     margin-right: 5px;
@@ -443,57 +437,67 @@
     bottom: -160px;
     left: -5px;
 }
+
 .grafik1 {
     border-radius: 5px;
     margin-right: 15px;
     margin-top: 15px;
     margin-left: 15px;
 }
+
 .c2 {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
 .grafik2 {
-    border-radius:5px ;
+    border-radius: 5px;
     margin-top: 15px;
     margin-left: 15px;
 }
+
 .grafik3 {
-    border-radius:5px;
+    border-radius: 5px;
     margin-top: 15px;
     margin-left: 15px;
 }
+
 .grafik4 {
-    border-radius:5px ;
+    border-radius: 5px;
     margin-top: 15px;
     margin-left: 15px;
 }
-.c3{
+
+.c3 {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 11px;
 }
-.grafik5{
+
+.grafik5 {
     border-radius: 5px;
     margin-left: 15px;
     margin-top: 15px;
 }
-.grafik6{
+
+.grafik6 {
     border-radius: 5px;
     margin-left: 15px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
-body{
- background-image: url("backgroundProject.png");
+body {
+    font-family: "PT Sans", sans-serif;
+    background-image: url("backgroundProject.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.conteiner{
+
+.conteiner {
     max-width: 960px;
-    margin:0 auto;
+    margin: 0 auto;
 }

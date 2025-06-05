@@ -1,4 +1,4 @@
-var options = {
+let options1 = {
     series: [100, 20],
     chart: {
         height: 250,
@@ -46,11 +46,11 @@ var options = {
     }]
 };
 
-var chart = new ApexCharts(document.querySelector("#chart1"), options);
-chart.render();
+var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
+chart1.render();
 
 
-var options = {
+let options2 = {
     series: [25, 25, 25, 25], // Делим на 4 равные части (25%, 50%, 75%, 100%)
     chart: {
         height: 200,
@@ -85,6 +85,78 @@ function s1(){
     strelka.style.transform = 'rotate(-45deg)'
 }
 
-var chart = new ApexCharts(document.querySelector("#chart2"), options);
-chart.render();
+var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+chart2.render();
 s1();
+
+let options3 = {
+    series: [{
+        name: "STOCK ABC",
+        data: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+    }],
+    chart: {
+        type: 'area',
+        height: 290,
+        zoom: {
+            enabled: false
+        }
+    },
+    dataLabels: {
+        enabled: false
+    },
+    stroke: {
+        curve: 'straight'
+    },
+
+    title: {
+        text: 'Fundamental Analysis of Stocks',
+        align: 'left'
+    },
+    subtitle: {
+        text: 'Price Movements',
+        align: 'left'
+    },
+    labels: [
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+        new Date(''),
+    ],
+    xaxis: {
+        type: 'date',
+    },
+    yaxis: {
+        opposite: true
+    },
+    legend: {
+        horizontalAlign: 'left'
+    }
+};
+
+let chart3 = new ApexCharts(document.querySelector("#chart"), options3);
+chart3.render();
+
+let options4 = {
+    series: [70],
+    chart: {
+        height: 240,
+        type: 'radialBar',
+    },
+    plotOptions: {
+        radialBar: {
+            hollow: {
+                size: '70%',
+            }
+        },
+    },
+    labels: ['NPS'],
+};
+
+let chart4 = new ApexCharts(document.querySelector("#chart3"), options4);
+chart4.render();
